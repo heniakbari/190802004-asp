@@ -29,7 +29,7 @@
 	        <h2>Sign In Now</h2>
 		        <form id="form1" runat="server">
                     <asp:TextBox ID="TextBox1" runat="server" class="ggg" placeholder="E-MAIL"></asp:TextBox>
-                    <asp:TextBox ID="TextBox2" runat="server" class="ggg" placeholder="PASSWORD"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" class="ggg" placeholder="PASSWORD" TextMode="Password"></asp:TextBox>
 			        <span><input type="checkbox" />Remember Me</span>
 			        <h6><a href="#">Forgot Password?</a></h6>
 				        <div class="clearfix"></div>
@@ -37,7 +37,7 @@
                         <asp:Button ID="Button1" runat="server" Text="Sign In" 
                         onclick="Button1_Click" />
 		        </form>
-		        <p>Don't Have an Account ?<a href="registration.html">Create an account</a></p>
+		        <p>Don't Have an Account ?<a href="Registration.aspx">Create an account</a></p>
         </div>
     </div>
     <script src="src/js/bootstrap.js"></script>
